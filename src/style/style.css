@@ -1,13 +1,14 @@
 @import url(./reset.css);
 @font-face {
   font-family: 'Montserrat';
-  src: url('./fonts/Montserrat-Regular.ttf');
+  src: url('../../public/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   background-color: #f8f8fa;
 }
+
 input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
