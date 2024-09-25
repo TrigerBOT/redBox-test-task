@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MyComponent from '../components/FormComponent.vue';
+import PreviewComponent from '../components/PreviewComponent.vue';
 
 
 const routes = [
@@ -8,11 +9,11 @@ const routes = [
     name: 'home',
     component: MyComponent,
   },
-//   {
-//     path: '/preview',
-//     name: 'preview',
-//     component: PreviewComponent,
-//   },
+  {
+    path: '/preview',
+    name: 'preview',
+    component: PreviewComponent,
+  },
 ];
 
 const router = createRouter({
